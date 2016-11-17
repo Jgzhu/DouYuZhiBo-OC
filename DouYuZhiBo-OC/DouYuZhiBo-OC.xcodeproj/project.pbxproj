@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		0E24D5561DDDE9C800FF7E7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D5551DDDE9C800FF7E7F /* main.m */; };
 		0E24D5591DDDE9C800FF7E7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D5581DDDE9C800FF7E7F /* AppDelegate.m */; };
-		0E24D55C1DDDE9C800FF7E7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D55B1DDDE9C800FF7E7F /* ViewController.m */; };
 		0E24D55F1DDDE9C800FF7E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E24D55D1DDDE9C800FF7E7F /* Main.storyboard */; };
 		0E24D5611DDDE9C800FF7E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E24D5601DDDE9C800FF7E7F /* Assets.xcassets */; };
 		0E24D5641DDDE9C800FF7E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E24D5621DDDE9C800FF7E7F /* LaunchScreen.storyboard */; };
 		0E24D56F1DDDE9C900FF7E7F /* DouYuZhiBo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D56E1DDDE9C900FF7E7F /* DouYuZhiBo_OCTests.m */; };
 		0E24D57A1DDDE9C900FF7E7F /* DouYuZhiBo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D5791DDDE9C900FF7E7F /* DouYuZhiBo_OCUITests.m */; };
+		0E24D5A81DDE075100FF7E7F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D5A71DDE075100FF7E7F /* MainViewController.m */; };
+		0E24D5AB1DDE0A0800FF7E7F /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D5AA1DDE0A0800FF7E7F /* FollowViewController.m */; };
+		0E24D5AE1DDE0A3100FF7E7F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D5AD1DDE0A3100FF7E7F /* HomeViewController.m */; };
+		0E24D5B11DDE0A5900FF7E7F /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D5B01DDE0A5900FF7E7F /* LiveViewController.m */; };
+		0E24D5B41DDE0A9C00FF7E7F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D5B31DDE0A9C00FF7E7F /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		0E24D5551DDDE9C800FF7E7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E24D5571DDDE9C800FF7E7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E24D5581DDDE9C800FF7E7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0E24D55A1DDDE9C800FF7E7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0E24D55B1DDDE9C800FF7E7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0E24D55E1DDDE9C800FF7E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E24D5601DDDE9C800FF7E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E24D5631DDDE9C800FF7E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,16 @@
 		0E24D5751DDDE9C900FF7E7F /* DouYuZhiBo-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DouYuZhiBo-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E24D5791DDDE9C900FF7E7F /* DouYuZhiBo_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouYuZhiBo_OCUITests.m; sourceTree = "<group>"; };
 		0E24D57B1DDDE9C900FF7E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E24D5A61DDE075100FF7E7F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0E24D5A71DDE075100FF7E7F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0E24D5A91DDE0A0800FF7E7F /* FollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowViewController.h; sourceTree = "<group>"; };
+		0E24D5AA1DDE0A0800FF7E7F /* FollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowViewController.m; sourceTree = "<group>"; };
+		0E24D5AC1DDE0A3100FF7E7F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0E24D5AD1DDE0A3100FF7E7F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0E24D5AF1DDE0A5900FF7E7F /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		0E24D5B01DDE0A5900FF7E7F /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		0E24D5B21DDE0A9C00FF7E7F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		0E24D5B31DDE0A9C00FF7E7F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +113,9 @@
 		0E24D5531DDDE9C800FF7E7F /* DouYuZhiBo-OC */ = {
 			isa = PBXGroup;
 			children = (
+				0E24D59E1DDE06AC00FF7E7F /* Classes */,
 				0E24D5571DDDE9C800FF7E7F /* AppDelegate.h */,
 				0E24D5581DDDE9C800FF7E7F /* AppDelegate.m */,
-				0E24D55A1DDDE9C800FF7E7F /* ViewController.h */,
-				0E24D55B1DDDE9C800FF7E7F /* ViewController.m */,
 				0E24D55D1DDDE9C800FF7E7F /* Main.storyboard */,
 				0E24D5601DDDE9C800FF7E7F /* Assets.xcassets */,
 				0E24D5621DDDE9C800FF7E7F /* LaunchScreen.storyboard */,
@@ -138,6 +149,79 @@
 				0E24D57B1DDDE9C900FF7E7F /* Info.plist */,
 			);
 			path = "DouYuZhiBo-OCUITests";
+			sourceTree = "<group>";
+		};
+		0E24D59E1DDE06AC00FF7E7F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0E24D59F1DDE06AC00FF7E7F /* Follow */,
+				0E24D5A01DDE06AC00FF7E7F /* Home */,
+				0E24D5A11DDE06AC00FF7E7F /* Live */,
+				0E24D5A21DDE06AC00FF7E7F /* Main */,
+				0E24D5A31DDE06AC00FF7E7F /* Profile */,
+				0E24D5A41DDE06AC00FF7E7F /* Room */,
+				0E24D5A51DDE06AC00FF7E7F /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0E24D59F1DDE06AC00FF7E7F /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				0E24D5A91DDE0A0800FF7E7F /* FollowViewController.h */,
+				0E24D5AA1DDE0A0800FF7E7F /* FollowViewController.m */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		0E24D5A01DDE06AC00FF7E7F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0E24D5AC1DDE0A3100FF7E7F /* HomeViewController.h */,
+				0E24D5AD1DDE0A3100FF7E7F /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0E24D5A11DDE06AC00FF7E7F /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				0E24D5AF1DDE0A5900FF7E7F /* LiveViewController.h */,
+				0E24D5B01DDE0A5900FF7E7F /* LiveViewController.m */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		0E24D5A21DDE06AC00FF7E7F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0E24D5A61DDE075100FF7E7F /* MainViewController.h */,
+				0E24D5A71DDE075100FF7E7F /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0E24D5A31DDE06AC00FF7E7F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0E24D5B21DDE0A9C00FF7E7F /* ProfileViewController.h */,
+				0E24D5B31DDE0A9C00FF7E7F /* ProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0E24D5A41DDE06AC00FF7E7F /* Room */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		0E24D5A51DDE06AC00FF7E7F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +360,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E24D55C1DDDE9C800FF7E7F /* ViewController.m in Sources */,
+				0E24D5B11DDE0A5900FF7E7F /* LiveViewController.m in Sources */,
 				0E24D5591DDDE9C800FF7E7F /* AppDelegate.m in Sources */,
+				0E24D5A81DDE075100FF7E7F /* MainViewController.m in Sources */,
 				0E24D5561DDDE9C800FF7E7F /* main.m in Sources */,
+				0E24D5B41DDE0A9C00FF7E7F /* ProfileViewController.m in Sources */,
+				0E24D5AE1DDE0A3100FF7E7F /* HomeViewController.m in Sources */,
+				0E24D5AB1DDE0A0800FF7E7F /* FollowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,11 +515,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = FUWD834EPR;
 				INFOPLIST_FILE = "DouYuZhiBo-OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jgzhu.DouYuZhiBo-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -439,11 +529,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = FUWD834EPR;
 				INFOPLIST_FILE = "DouYuZhiBo-OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jgzhu.DouYuZhiBo-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -516,6 +608,7 @@
 				0E24D5801DDDE9C900FF7E7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E24D5811DDDE9C900FF7E7F /* Build configuration list for PBXNativeTarget "DouYuZhiBo-OCTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +617,7 @@
 				0E24D5831DDDE9C900FF7E7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E24D5841DDDE9C900FF7E7F /* Build configuration list for PBXNativeTarget "DouYuZhiBo-OCUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +626,7 @@
 				0E24D5861DDDE9C900FF7E7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
